@@ -1,0 +1,351 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2022.11.12 19:06:49 =~=~=~=~=~=~=~=~=~=~=~=
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7032, room 16 
+tail 8
+chksum 0x94
+load 0x3ffe8408, len 24, room 0 
+tail 8
+chksum 0x2d
+load 0x3ffe8420, len 3328, room 0 
+tail 0
+chksum 0x5d
+csum 0x5d
+[0;32mI (42) boot: ESP-IDF v3.4-49-g0f200b46-dirty 2nd stage bootloader[0m
+[0;32mI (43) boot: compile time 17:22:17[0m
+[0;32mI (43) boot: SPI Speed      : 40MHz[0m
+[0;32mI (50) boot: SPI Mode       : DIO[0m
+[0;32mI (56) boot: SPI Flash Size : 1MB[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (68) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (79) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (90) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (102) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
+[0;32mI (113) boot: End of partition table[0m
+[0;32mI (120) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x15388 ( 86920) map[0m
+[0;32mI (169) esp_image: segment 1: paddr=0x000253a0 vaddr=0x40225398 size=0x05868 ( 22632) map[0m
+[0;32mI (179) esp_image: segment 2: paddr=0x0002ac10 vaddr=0x3ffe8000 size=0x003dc (   988) load[0m
+[0;32mI (181) esp_image: segment 3: paddr=0x0002aff4 vaddr=0x40100000 size=0x00080 (   128) load[0m
+[0;32mI (194) esp_image: segment 4: paddr=0x0002b07c vaddr=0x40100080 size=0x04558 ( 17752) load[0m
+[0;32mI (215) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (235) main: Starting Test[0m
+[0;32mI (237) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (239) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (241) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (249) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (257) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (264) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (273) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (280) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (288) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (296) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (304) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (312) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (320) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (328) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (336) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (344) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (352) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (359) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (368) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (375) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (383) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (391) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (399) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (407) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (415) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (423) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (431) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (439) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (447) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (454) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (463) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (470) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (478) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (486) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (494) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (502) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (510) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (518) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (526) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (534) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (542) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (549) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (558) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (565) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (573) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (582) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (589) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (597) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (605) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (613) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (621) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (629) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (637) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (645) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (653) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (660) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (668) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (677) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (684) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (692) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (700) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (708) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (716) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (724) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (732) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (740) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (748) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (755) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (763) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (772) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (779) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (787) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (795) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (803) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (811) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (819) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (827) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (835) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (843) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (850) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (858) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (867) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (874) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (882) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (890) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (898) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (906) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (914) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (922) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (930) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (938) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (945) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (953) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (962) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (969) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (977) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (985) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (993) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1001) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1009) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1017) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1025) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1033) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1041) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1049) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1058) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1065) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1073) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1082) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1089) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1097) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1106) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1114) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1122) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1130) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1138) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1146) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1154) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1162) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1170) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1178) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1186) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1194) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1203) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1210) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1218) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1227) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1234) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1242) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1251) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1259) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1267) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1275) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1283) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1291) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1299) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1307) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1315) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1323) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1331) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1339) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1347) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1355) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1363) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1372) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1379) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1387) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1396) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1404) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1412) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1420) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1428) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1436) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1444) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1452) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1460) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1468) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1476) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1484) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1492) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1500) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1508) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1517) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1524) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1532) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1541) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1548) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1556) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1565) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1573) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1581) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1589) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1597) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1605) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1613) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1621) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1629) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1637) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1645) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1653) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1661) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1669) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1677) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1686) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1693) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1701) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1710) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1718) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1726) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1734) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1742) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1750) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1758) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1766) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1774) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1782) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1790) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1798) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1806) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1814) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1822) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1831) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1838) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1846) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1855) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1862) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1870) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1879) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1887) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1895) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1903) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1911) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1919) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1927) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1935) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1943) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1951) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1959) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1967) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (1976) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (1983) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (1991) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2000) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2007) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2015) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2024) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2032) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2040) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2048) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2056) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2064) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2072) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2080) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2088) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2096) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2104) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2112) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2120) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2128) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2136) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2145) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2152) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2160) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2169) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2177) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2185) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2193) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2201) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2209) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2217) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2225) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2233) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2241) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2249) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2257) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2265) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2273) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2281) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2290) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2297) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2305) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2314) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2321) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2329) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2338) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2346) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2354) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2362) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2370) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2378) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2386) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2394) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2402) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2410) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2418) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2426) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2434) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2442) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2450) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2459) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2466) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2474) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2483) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2491) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2499) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2507) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2515) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2523) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2531) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2539) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2547) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2555) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2563) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2571) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2579) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2587) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2595) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2604) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2611) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2619) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2628) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2635) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2643) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2652) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2660) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2668) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2676) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2684) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2692) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2700) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2708) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2716) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2724) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2732) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2740) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2749) main: Test 1 Creating Mutex : Passed[0m
+[0;32mI (2756) main: Test 2 Taking Mutex Key : Passed[0m
+[0;32mI (2764) main: Test 3 Releasing Mutex Key : Passed[0m
+[0;32mI (2773) main: Test 1 Creating Mutex : Passed
